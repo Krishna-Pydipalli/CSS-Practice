@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CSS Backgrounds</title>
+		<style>
+			body{
+				font-family: Arial, sans serif;
+				}
+				
+			div{
+				box-shadow: 0 0 10px black;
+				margin-bottom:50px;
+				}
+			#bg-color{
+				background-color:tomato;
+				Color:white;
+				font-size:20px;
+				padding:10px;
+			}
+			
+			#bg-image{
+				background-image:url("Jana_Sena_Party_Flag.png");
+				width:500px;
+				height:300px;
+			}
+			
+			#bg-repeat{
+				background-color:blue;
+				background-image:url("krishna.jpg");
+				width:500px;
+				height:500px;
+				background-repeat: no-repeat;	
+			}
+			
+			#bg-position{
+				background-color:blue;
+				background-image:url("krishna.jpg");
+				width:500px;
+				height:500px;
+				background-repeat:no-repeat;
+				background-position:top right;
+			}
+			
+			#bg-size{
+				background-image:url("img-4.jpg");
+				width:750px;
+				height:500px;
+				background-size:cover;
+			}
+			
+			#bg-attachment{
+				background-color:blue;
+				background-image:url("img-2.jpg");
+				width:100%;
+				height:500px;
+				background-size:cover;
+				background-attachment:fixed;
+			}
+			
+			#bg{
+				background:green url("img-3.jpg") no-repeat center;
+				width:100%;
+				height:500px;
+			}
+			
+			#bg-linear-gradient{
+				background:linear-gradient(45deg,black,red,black);
+				width:500px;
+				height:500px;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<h1>Background Color</h1>
+		<div id="bg-color">
+		<p>Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+		</div>
+		
+		<h1>Background Image</h1>
+		<div id="bg-image"></div>
+		
+		<h1>Background Repeat</h1>
+		<div id="bg-repeat"></div>
+		
+		<h1>Background Position</h1>
+		<div id="bg-position"></div>
+		
+		<h1>Background Size</h1>
+		<div id="bg-size"></div>
+		
+		<h1>Background Attachment</h1>
+		<div id="bg-attachment"></div>
+		
+		<h1>Background</h1>
+		<div id="bg"></div>
+		
+		<h1>Background Linear Gradient</h1>
+		<div id="bg-linear-gradient"></div>
+		
+	</body>
+</html>
